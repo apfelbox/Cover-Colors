@@ -1,0 +1,98 @@
+@import "bourbon/bourbon";
+
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #EEE;
+}
+
+// Cover
+.cover {
+    width: 220px;
+    height: 220px;
+    line-height: 220px;
+    text-align: center;
+    margin: 50px auto;
+    border: 1px solid #CCC;
+    background-color: white;
+
+    img {
+        display: none;
+        vertical-align: middle;
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .no-cover {
+        color: #AAA;
+    }
+}
+
+
+// Track Listing
+.track-listing {
+    width: 400px;
+    margin: 50px auto;
+
+    h2 {
+        color: black;
+    }
+
+    li {
+        color: black;
+        margin: 3px 0;
+    }
+}
+
+
+body.drag-hover .cover {
+    $color: #add8e6;
+    @include box-shadow(3px  3px 3px $color,
+                        3px -3px 3px $color,
+                       -3px  3px 3px $color,
+                       -3px -3px 3px $color);
+
+    .no-cover {
+        color: $color;
+    }
+}
+
+.metrics {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px;
+    border: 1px solid #CCC;
+    background-color: white;
+
+    h2 {
+        font-size: 12px;
+    }
+
+    table {
+        font-size: 10px;
+        text-align: left;
+        border-collapse: collapse;
+
+        tr {
+            td, th {
+                padding: 2px;
+            }
+
+            border-top: 1px solid #CCC;
+        }
+    }
+}
+
+.track-listing h2, .track-listing li {
+    @include transition(color 0.5s ease-in-out);
+}
+
+.track-listing h2, .track-listing li {
+    @include transition(color 0.5s ease-in-out);
+}
+
+body {
+    @include transition(background-color 0.5s ease-in-out);
+}
