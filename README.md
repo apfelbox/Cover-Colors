@@ -36,6 +36,9 @@ Example: the bow tie of Aloe Blacc is not recognized:
 
 Found colors: ![#e7c985](http://streuobstwie.se/cover_colors/readme/colors/e7c985.jpg), ![#643d2a](http://streuobstwie.se/cover_colors/readme/colors/643d2a.jpg), ![#906e4e](http://streuobstwie.se/cover_colors/readme/colors/906e4e.jpg)
 
+It was suggested, that one could look for highlights in the center of the image (because there is the foreground in most cases) and do a special analysis on these pixels.
+
+
 ### Looking for a better contrast between background color and text colors
 Currently, the text colors are chosen, so that there is a large enough (to be defined) color difference between the colors.
 This can lead to potentialy low contrast.
