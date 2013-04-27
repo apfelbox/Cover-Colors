@@ -13,7 +13,7 @@ The removal of the border is important, because some of the images have a fringy
 
 ![Amy MacDonald](http://streuobstwie.se/cover_colors/readme/amy_macdonald.jpg)
 
-Found colors: <span style="background-color: #897e61; padding: 2px;">#897e61</span>, <span style="background-color: #0a0705; color: white; padding: 2px;">#0a0705</span>, <span style="background-color: #d7b67b; padding: 2px;">#d7b67b</span>
+Found colors: ![#897e61](http://streuobstwie.se/cover_colors/readme/colors/897e61.jpg), ![#0a0705](http://streuobstwie.se/cover_colors/readme/colors/0a0705.jpg), ![#d7b67b](http://streuobstwie.se/cover_colors/readme/colors/d7b67b.jpg)
 
 ### Background Color
 * A histogram of the 1px wide edge of the image is created and the most dominant color is selected
@@ -34,7 +34,7 @@ Example: the bow tie of Aloe Blacc is not recognized:
 
 ![Aloe Blacc - Good Things](http://streuobstwie.se/cover_colors/readme/aloe_blacc.jpg)
 
-Found colors: <span style="background-color: #e7c985; padding: 2px;">#e7c985</span>, <span style="background-color: #643d2a; color: white; padding: 2px;">#643d2a</span>, <span style="background-color: #906e4e; color: white; padding: 2px;">#906e4e</span>
+Found colors: ![#e7c985](http://streuobstwie.se/cover_colors/readme/colors/e7c985.jpg), ![#643d2a](http://streuobstwie.se/cover_colors/readme/colors/643d2a.jpg), ![#906e4e](http://streuobstwie.se/cover_colors/readme/colors/906e4e.jpg)
 
 ### Looking for a better contrast between background color and text colors
 Currently, the text colors are chosen, so that there is a large enough (to be defined) color difference between the colors.
