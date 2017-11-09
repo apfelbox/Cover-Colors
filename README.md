@@ -1,6 +1,5 @@
 # Cover Colors
 This is an example app, trying to mimic the iTunes cover colors algorithm.
-A live example is visible [online](http://streuobstwie.se/cover_colors/).
 
 ## How it works
 It is a more or less direct port from Mathematica of the example code, provided by [Seth Thompson][1].
